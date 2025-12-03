@@ -79,7 +79,7 @@
 </p>
  <h3 id="Introduction">Introduction</h3>
   <p class="ex1">
-    <pre>
+    <pre id="Introduction_InText">
       Over the years, the use of tools in surgical procedures has developed rapidly and with the 
       increased use and improvement in the use of artificial intelligence, it was only a matter of time 
       before AI was implemented into the medical and surgical settings. 
@@ -88,7 +88,7 @@
 
     <h3 id="Uses of robotics in surgery">Uses of robotics in surgery</h3>
   <p class="ex1">
-    <pre>
+    <pre id="Uses of robotics in surgery_InText">
       Robotics has become an indispensable and increasingly used component of modern surgical procedures. 
       It has appeared across multiple specialities from general surgery to cardiology and neurosurgery. 
       Commercial platforms such as Intuitive’s  da Vinci robotic surgery system have allowed surgeons to 
@@ -116,7 +116,7 @@
 
     <h3 id="Current successes, research and limitations">Current successes, research and limitations</h3>
   <p class="ex1">
-    <pre>
+    <pre id="Current successes, research and limitations_InText">
       Many hospitals and treatment centres have now reported improved clinical metrics when robotics have been 
       implemented in appropriate cases; analysis has shown that since the introduction of this technology, there 
       have been fewer conversions to open surgery, lower rates of transfusion and shortened hospital stays for 
@@ -139,7 +139,7 @@
 
     <h3 id="Ethical and operational challenges">Ethical and operational challenges</h3>
   <p class="ex1">
-    <pre>
+    <pre id="Ethical and operational challenges_InText">
       The ethical queries that surround the use of robotics in surgery are equally important as the technical ones. As 
       surgical robots move towards higher levels of AI and automation, questions arise surrounding the responsibility when 
       things may go wrong; was the fault a misjudgement by the surgeon, a technical malfunction, an issue in the software 
@@ -229,9 +229,9 @@
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction");
-    const P1Count = displayWordCount("Uses_of_robotics_in_surgery_InText");
-    const P2Count = displayWordCount("Current_successes,_research_and_limitations_InText");
-    const P3Count = displayWordCount("Ethical_and_operational_challenges_InText");
+    const P1Count = displayWordCount("Uses of robotics in surgery_InText");
+    const P2Count = displayWordCount("Current successes, research and limitations_InText");
+    const P3Count = displayWordCount("Ethical and operational challenges_InText");
     // Calculate the sum of all selected sections
     const totalWordCount = IntroductionCount + P1Count + P2Count + P3Count;
     // Display the total word count
