@@ -58,6 +58,9 @@
       <td><a href="#Uses of robotics in surgery">Uses of robotics in surgery</td>
     </tr>
     <tr>
+      <td><a href="#The Davinci Robot">The Davinci Robot</td>
+    </tr>
+    <tr>
       <td><a href="#Current successes, research and limitations">Current successes, research and limitations</td>
     </tr>
     <tr>
@@ -103,6 +106,13 @@
         The DaVinci Robot
       </pre>
     </p>
+<h3 id="The Davinci Robot">The Davinci Robot</h3>
+  <p class="ex1">
+    <pre id="The Davinci Robot_InText">
+      From the following data, we can see the evolution in the use of the DaVinci robot over the years. Between 2015 and 2021, the amount of procedures using the DaVinci robot
+      has increased dramatically. Between 2015 and 2020, the number of procedures increased by between 5.8 thousand (2017-2018) to 8.8 thousand (2016-2017). However, between
+      2020 and 2021, it increased drastically by 41.8 thousand. This highlights the ongoing developments in the machinery as well as the more recent advances. This data also 
+      indicates to us that the machinery and systems are constantly improving and being implemented and will only increases in use and become further refined.
 <p>Table 1: Data on Number of DaVinci robots used per year</p>
   <table>
     <tr>
@@ -245,9 +255,10 @@
     const IntroductionCount = displayWordCount("Introduction");
     const P1Count = displayWordCount("Uses of robotics in surgery_InText");
     const P2Count = displayWordCount("Current successes, research and limitations_InText");
-    const P3Count = displayWordCount("Ethical and operational challenges_InText");
+    const P3Count = displayWordCount("The Davinci Robot_InText");
+    const P4Count = displayWordCount("Ethical and operational challenges_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + P1Count + P2Count + P3Count;
+    const totalWordCount = IntroductionCount + P1Count + P2Count + P3Count + P4Count;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
