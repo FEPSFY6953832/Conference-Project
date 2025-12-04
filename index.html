@@ -66,6 +66,9 @@
     <tr>
       <td><a href="#Ethical and operational challenges">Ethical and operational challenges</td>
     </tr>
+    <tr>
+      <td><a href="#Conclusion">Conclusion</td>
+    </tr>
   </table>
 
   <h3 id="Abstract">Abstract</h3>
@@ -182,6 +185,18 @@
       work together to ensure the technology is safe, affordable and equally distributed.
     </pre>
   </p>
+    <h3 id='Conclusion'>Conclusion</h3>
+  <p class="ex1">
+    <pre id="Conclusion_InText">
+      Robotic  surgery has become one of the most major forces in modern healthcare, allowing for improved visualisation, faster recovery for patients and more precise working. 
+      It has many successful uses in procedures such as joint replacement and neurosurgical navigation, demonstrating how robotics can enhance precision and minimise 
+      complications. Current research in AI suggests that these systems will continue to develop and become more capable.
+
+      However, there are still several barricades  that limit the implementation. The need for specialised personnel, high setup and running costs, compatibility with 
+      pre-existing medical setups make implementation strenuous. There are also many ethical considerations such as responsibility for any errors made, data security and ensuring 
+      equal access for all.
+
+      Overall, the use of robotics in surgery has many clear benefits to offer but will require further research and improvements  to ensure safe and effective in the future
       
   </body>
 <!-- //////////////////////////////////////////////////////////////////////////////// -->
@@ -260,8 +275,9 @@
     const P2Count = displayWordCount("Current successes, research and limitations_InText");
     const P3Count = displayWordCount("The Davinci Robot_InText");
     const P4Count = displayWordCount("Ethical and operational challenges_InText");
+    const ConclusionCount = displayWordCount("Conclusion_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + P1Count + P2Count + P3Count + P4Count;
+    const totalWordCount = IntroductionCount + P1Count + P2Count + P3Count + P4Count + ConclusionCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
